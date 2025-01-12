@@ -29,7 +29,7 @@ This is the frontend application.
 Images or other static assets in the app will need the base path (sub path) prefixed to them.
 
 For example,
-`src="/globe.svg"` would need to be written as `src={\`${BASE_PATH}/globe.svg\`}`
+`src="/globe.svg"` would need to be written as ``src={\`${BASE_PATH}/globe.svg\`}``
 
 This BASE_PATH can be modified in the `config.ts` file.
 
